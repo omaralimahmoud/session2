@@ -1,0 +1,373 @@
+header
+{
+background-color: tomato;
+background-image:url(../images/bg.jpg);
+background-size: cover;
+background-position:center center;
+
+}
+.lyer
+{
+    background-color: rgba(0,0,0,0.6);
+    height: 100%;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    color: white;
+}
+body
+{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+}
+header h1
+{
+
+font-weight:900px;
+font-size :  80px;
+
+
+}
+header p
+{
+    font: weight 800px;
+    font: size 80px;
+}
+
+.parent
+{
+display: flex;
+flex-wrap: wrap;
+margin-top: 50px;
+margin: auto;
+padding:40px ;
+}
+.child
+{
+    padding: 20px;
+}
+
+
+.item
+{
+    background-color: ;
+    width: 50%;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+..item img 
+{
+    width: 100%;
+}
+.item h3
+{
+color: gray;
+}
+.item p
+{
+    color: gray;
+}
+.btn1
+{
+    background-color:black;
+    color: white;
+    transition: 1s;
+border: solid 1px black;
+padding: 5px;
+}
+.btn2
+{
+    background-color:white;
+    color: black;
+    transition: 1s;
+    border: solid 1px black;
+    padding: 5px;
+}
+.btn2:hover
+{
+background-color: black;
+color: white;
+}
+.btn1:hover
+{
+background-color: white;
+color: black;
+}
+.srrveis
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.web
+{
+    display: flex;
+    text-align: center;
+    
+h
+}
+.fully
+{
+    padding: 20px;
+    
+}
+
+
+
+.androud
+{
+   display: flex;
+   text-align: center;
+   padding: 5px;
+   margin-top: 20px;
+   
+}
+
+
+.port
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 10px;
+    
+}
+
+
+
+.scale
+{
+    padding: 20px;
+}
+.phtoo
+
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.apple img
+{
+    width: 100%;
+    padding: 10px;
+    transition: 1s;
+
+
+}
+img .apple:hover
+{
+    background-color: white;
+}
+
+.light img
+{
+   width: 100%; 
+}
+
+.test img
+{
+    width: 100%; 
+}
+
+.position img
+{
+width: 100px;
+border-radius: 50%;
+}
+.over p
+
+    {
+        color: gray;
+    }
+   
+.btn1
+{
+    background-color: black;
+    border: solid 1px black !important;
+    color: white;
+    transition: 1s;
+    padding: 5px;
+}
+.btn1:hover
+{
+    background-color: white;
+    color: black;
+}
+.btn2
+{
+    background-color: white;
+    transition: 1s;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.btn2:hover
+{
+    background-color: black;
+    border: solid 1px black !important;
+    color: white;
+}
+.omarr
+{
+    background-color:whitesmoke;
+    padding: 50px;
+}
+.omarr p
+{
+    color: gray;
+}
+
+.icons
+{
+    padding: 20px;
+    border: solid 3px black;
+    border-radius: 50%;
+    color:black;
+    background-color:gray;
+    transition:  1s;
+}
+
+.omarr:hover .icons
+{
+    background-color: black;
+    color: white;
+}
+
+.over-web
+{
+position: absolute;
+top: 5px;
+left: 5px;
+right: 5px;
+bottom: 5px;
+transform: translateY(15px) ;
+transition: transform 1s ,opacity 1s;
+background-color:rgba(255,255 ,255, 0.8);
+opacity: 0;
+}
+.over-img:hover .over-web
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.over-desin h6
+{
+transform: translateY(-100%);
+
+transition: transform 1s;
+}
+
+
+
+ .over-icons
+{
+    transform: translateY(100%);
+    transition: transform 1s;
+
+}
+.over-img:hover .over-desin h6
+
+{
+    transform: translateY(0px);
+}
+
+.over-img:hover .over-icons
+
+
+{
+    transform: translateY(0px);
+}
+
+*
+{
+    box-sizing: border-box;
+}
+.over-icons i
+{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    border: solid 2px  black;
+}
+.over-icons i:hover
+
+{
+    background-color: white;
+    color: #000;
+}
+
+.w-30
+{
+    width: 30%;
+}
+
+
+.photo1 a
+{
+    color: #000;
+    font-weight: 700px;
+}
+
+.nav-pills .active
+
+{
+    background-color: transparent !important;
+color: black !important;
+border-bottom: solid 2px black;
+}
+.client img
+{
+    width: 100px;
+}
+.carousel-indicators li
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.lines h6 
+{
+    color: grey;
+}
+
+.slider img 
+{
+    width: 400px;
+}
+
+.tyer
+{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    margin-bottom:70px ;
+    
+}
+.back
+{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    
+}
+
+
+.tyer:hover
+{
+    background-color: white;
+    color: black;
+}
